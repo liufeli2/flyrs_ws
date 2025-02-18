@@ -1,0 +1,1 @@
+/home/jetson/flyrs_ws/src/px4_autonomy_modules/launch/mavros.launch.py
