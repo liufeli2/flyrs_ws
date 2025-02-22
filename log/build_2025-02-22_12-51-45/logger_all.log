@@ -1,0 +1,239 @@
+[1.531s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.532s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f878bf040>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f878bf040>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f876fedc0>)
+[2.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.776s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/flyrs_ws'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.783s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extensions ['ignore', 'ignore_ament_install']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'ignore'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'ignore_ament_install'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extensions ['colcon_pkg']
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'colcon_pkg'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extensions ['colcon_meta']
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'colcon_meta'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extensions ['ros']
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'ros'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extensions ['cmake', 'python']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'cmake'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'python'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extensions ['python_setup_py']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2) by extension 'python_setup_py'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/build) by extensions ['ignore', 'ignore_ament_install']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/build) by extension 'ignore'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/build) ignored
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/install) by extensions ['ignore', 'ignore_ament_install']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/install) by extension 'ignore'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/install) ignored
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/log) by extensions ['ignore', 'ignore_ament_install']
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/log) by extension 'ignore'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/log) ignored
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'ignore'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'ignore_ament_install'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extensions ['colcon_pkg']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'colcon_pkg'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extensions ['colcon_meta']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'colcon_meta'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extensions ['ros']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'ros'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extensions ['cmake', 'python']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'cmake'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'python'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extensions ['python_setup_py']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(flight_test_2/testing_all_nodes) by extension 'python_setup_py'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ignore', 'ignore_ament_install']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore_ament_install'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_pkg']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_pkg'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_meta']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_meta'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ros']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ros'
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['cmake', 'python']
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'cmake'
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'python'
+[3.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['python_setup_py']
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'python_setup_py'
+[3.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extensions ['ignore', 'ignore_ament_install']
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extension 'ignore'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extension 'ignore_ament_install'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extensions ['colcon_pkg']
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extension 'colcon_pkg'
+[3.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extensions ['colcon_meta']
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extension 'colcon_meta'
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extensions ['ros']
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_autonomy_modules) by extension 'ros'
+[3.031s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_autonomy_modules' with type 'ros.ament_cmake' and name 'px4_autonomy_modules'
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extensions ['ignore', 'ignore_ament_install']
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extension 'ignore'
+[3.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extension 'ignore_ament_install'
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extensions ['colcon_pkg']
+[3.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extension 'colcon_pkg'
+[3.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extensions ['colcon_meta']
+[3.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extension 'colcon_meta'
+[3.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extensions ['ros']
+[3.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/tmp) by extension 'ros'
+[3.041s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tmp' with type 'ros.ament_python' and name 'tmp'
+[3.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 267 installed packages in /opt/ros/foxy
+[3.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.812s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'cmake_args' from command line to 'None'
+[3.813s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'cmake_target' from command line to 'None'
+[3.813s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.813s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'cmake_clean_cache' from command line to 'False'
+[3.814s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'cmake_clean_first' from command line to 'False'
+[3.814s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'cmake_force_configure' from command line to 'False'
+[3.814s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'ament_cmake_args' from command line to 'None'
+[3.814s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'catkin_cmake_args' from command line to 'None'
+[3.815s] Level 5:colcon.colcon_core.verb:set package 'px4_autonomy_modules' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.815s] DEBUG:colcon.colcon_core.verb:Building package 'px4_autonomy_modules' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/flyrs_ws/build/px4_autonomy_modules', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/flyrs_ws/install/px4_autonomy_modules', 'merge_install': False, 'path': '/home/jetson/flyrs_ws/src/px4_autonomy_modules', 'symlink_install': False, 'test_result_base': None}
+[3.818s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'cmake_args' from command line to 'None'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'cmake_target' from command line to 'None'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'cmake_clean_cache' from command line to 'False'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'cmake_clean_first' from command line to 'False'
+[3.819s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'cmake_force_configure' from command line to 'False'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'ament_cmake_args' from command line to 'None'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'catkin_cmake_args' from command line to 'None'
+[3.820s] Level 5:colcon.colcon_core.verb:set package 'tmp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.820s] DEBUG:colcon.colcon_core.verb:Building package 'tmp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/flyrs_ws/build/tmp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/flyrs_ws/install/tmp', 'merge_install': False, 'path': '/home/jetson/flyrs_ws/src/tmp', 'symlink_install': False, 'test_result_base': None}
+[3.821s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.836s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/flyrs_ws/src/px4_autonomy_modules' with build type 'ament_cmake'
+[3.836s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/flyrs_ws/src/px4_autonomy_modules'
+[3.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.879s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/flyrs_ws/src/tmp' with build type 'ament_python'
+[3.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('tmp', 'ament_prefix_path')
+[3.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/tmp/share/tmp/hook/ament_prefix_path.ps1'
+[3.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/flyrs_ws/install/tmp/share/tmp/hook/ament_prefix_path.dsv'
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/tmp/share/tmp/hook/ament_prefix_path.sh'
+[3.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/flyrs_ws/build/px4_autonomy_modules -- -j4 -l4
+[6.073s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/flyrs_ws/src/tmp'
+[6.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/flyrs_ws/build/px4_autonomy_modules -- -j4 -l4
+[6.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/flyrs_ws/build/px4_autonomy_modules
+[6.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_autonomy_modules)
+[6.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/flyrs_ws/build/px4_autonomy_modules
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules' for CMake module files
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules' for CMake config files
+[6.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_autonomy_modules', 'cmake_prefix_path')
+[6.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/hook/cmake_prefix_path.ps1'
+[6.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/hook/cmake_prefix_path.dsv'
+[6.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/hook/cmake_prefix_path.sh'
+[6.378s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/bin'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/lib/pkgconfig/px4_autonomy_modules.pc'
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/lib/python3.8/site-packages'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/bin'
+[6.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.ps1'
+[6.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.dsv'
+[6.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.sh'
+[6.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.bash'
+[6.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.zsh'
+[6.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/colcon-core/packages/px4_autonomy_modules)
+[6.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_autonomy_modules)
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules' for CMake module files
+[6.425s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules' for CMake config files
+[6.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_autonomy_modules', 'cmake_prefix_path')
+[6.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/hook/cmake_prefix_path.ps1'
+[6.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/hook/cmake_prefix_path.dsv'
+[6.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/hook/cmake_prefix_path.sh'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/bin'
+[6.450s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/lib/pkgconfig/px4_autonomy_modules.pc'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/lib/python3.8/site-packages'
+[6.452s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/px4_autonomy_modules/bin'
+[6.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.ps1'
+[6.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.dsv'
+[6.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.sh'
+[6.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.bash'
+[6.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.zsh'
+[6.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/flyrs_ws/install/px4_autonomy_modules/share/colcon-core/packages/px4_autonomy_modules)
+[8.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/flyrs_ws/src/tmp': PYTHONPATH=/home/jetson/flyrs_ws/build/tmp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tmp build --build-base /home/jetson/flyrs_ws/build/tmp/build install --record /home/jetson/flyrs_ws/build/tmp/install.log --install-scripts $base/lib/tmp --single-version-externally-managed install_data
+[10.610s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp' for CMake module files
+[10.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/flyrs_ws/src/tmp' returned '0': PYTHONPATH=/home/jetson/flyrs_ws/build/tmp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tmp build --build-base /home/jetson/flyrs_ws/build/tmp/build install --record /home/jetson/flyrs_ws/build/tmp/install.log --install-scripts $base/lib/tmp --single-version-externally-managed install_data
+[10.615s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp' for CMake config files
+[10.617s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp/lib'
+[10.618s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp/bin'
+[10.619s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp/lib/pkgconfig/tmp.pc'
+[10.621s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages'
+[10.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('tmp', 'pythonpath')
+[10.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/tmp/share/tmp/hook/pythonpath.ps1'
+[10.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/flyrs_ws/install/tmp/share/tmp/hook/pythonpath.dsv'
+[10.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/flyrs_ws/install/tmp/share/tmp/hook/pythonpath.sh'
+[10.632s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/flyrs_ws/install/tmp/bin'
+[10.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tmp)
+[10.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/tmp/share/tmp/package.ps1'
+[10.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/flyrs_ws/install/tmp/share/tmp/package.dsv'
+[10.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/tmp/share/tmp/package.sh'
+[10.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/tmp/share/tmp/package.bash'
+[10.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/flyrs_ws/install/tmp/share/tmp/package.zsh'
+[10.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/flyrs_ws/install/tmp/share/colcon-core/packages/tmp)
+[10.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.650s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.745s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.843s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/flyrs_ws/install/local_setup.ps1'
+[10.851s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/flyrs_ws/install/_local_setup_util_ps1.py'
+[10.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/flyrs_ws/install/setup.ps1'
+[10.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/flyrs_ws/install/local_setup.sh'
+[10.887s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/flyrs_ws/install/_local_setup_util_sh.py'
+[10.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/flyrs_ws/install/setup.sh'
+[10.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/flyrs_ws/install/local_setup.bash'
+[10.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/flyrs_ws/install/setup.bash'
+[10.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/flyrs_ws/install/local_setup.zsh'
+[10.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/flyrs_ws/install/setup.zsh'

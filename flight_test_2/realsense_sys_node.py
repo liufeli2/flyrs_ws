@@ -18,7 +18,7 @@ class RealSense(Node):
         self.set_orientation = None
 
         # Subscriber to RealSense pose data
-        self.realsense_subscriber = self.create_subscription(PoseStamped, '/camera/pose/sample', self.realsense_callback, 1)
+        self.realsense_subscriber = self.create_subscription(Odometry, '/camera/pose/sample', self.realsense_callback, qos_profile)
         self.get_logger().info('Subscribing to RealSense!')
 
         # Publisher for VisionPose topic
@@ -73,10 +73,8 @@ class RealSense(Node):
         self.setpoint_publisher.publish(setpoint_msg)
 
 
-    def set_non_z_pose(self):
-        # Maintain the non y related parts of the flight
-        self.set_position.x = self.position.x
-        self.set_position.y = self.position.y
+    def set_pose(self):
+        self.set_position = self.set_position
         self.set_orientation = self.orientation
 
 

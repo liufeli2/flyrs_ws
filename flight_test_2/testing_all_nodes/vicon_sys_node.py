@@ -16,11 +16,7 @@ class Vicon(Node):
         # Subscriber to Vicon pose data
         self.vicon_subscriber = self.create_subscription(PoseStamped, '/vicon/ROB498_Drone/ROB498_Drone', self.vicon_callback, 1)
         self.get_logger().info('Subscribing to Vicon!')
-        
-        # # Publisher for VisionPose topic
-        # self.vision_pose_publisher = self.create_publisher(PoseStamped, '/mavros/vision_pose/pose', 1)
-        # self.get_logger().info('Publishing to VisionPose')
-        
+
         # Statement to end the inits
         self.get_logger().info('Vicon Node All Setup and Started!')
 
@@ -36,16 +32,6 @@ class Vicon(Node):
         print(f"Timestamp: {self.timestamp.sec}.{self.timestamp.nanosec}")
         print(f"Frame ID: {self.frame_id}")
     
-        # # Create a new PoseStamped message to publish to vision_pose topic
-        # vision_pose_msg = PoseStamped()
-        # vision_pose_msg.header.stamp = self.timestamp
-        # vision_pose_msg.header.frame_id = self.frame_id
-        # vision_pose_msg.pose.position = self.position
-        # vision_pose_msg.pose.orientation = self.orientation
-    
-        # # Publish the message to the /mavros/vision_pose/pose topic
-        # self.vision_pose_publisher.publish(vision_pose_msg)
-
 
 def main(args=None):
     rclpy.init(args=args)

@@ -13,16 +13,17 @@ running_node = RealSense()
 # Callback handlers
 def handle_launch():
     print('Launch Requested. Your drone should take off.')
-    running_node.set_position.z = 1.5
+    running_node.init_position = self.position
+    running_node.init_orientation = self.orientation
+    running_node.set_position.z = running_node.init_position.z + 1.5
 
 def handle_test():
     print('Test Requested. Your drone should perform the required tasks. Recording starts now.')
-    running_node.set_position.z = 1.5
-    running_node.set_non_z_pose()
+    running_node.set_pose()
 
 def handle_land():
     print('Land Requested. Your drone should land.')
-    running_node.set_position.z = 0
+    running_node.set_position.z += 1.5
 
 def handle_abort():
     print('Abort Requested. Your drone should land immediately due to safety considerations')

@@ -1,0 +1,25 @@
+[0.112s] Invoking command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/flyrs_ws/build/px4_autonomy_modules -- -j4 -l4
+[3.118s] Invoked command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/flyrs_ws/build/px4_autonomy_modules -- -j4 -l4
+[3.206s] Invoking command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/flyrs_ws/build/px4_autonomy_modules
+[3.237s] -- Install configuration: ""
+[3.241s] -- Execute custom install script
+[3.252s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/launch/__pycache__/mavros.launch.cpython-38.pyc
+[3.253s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/launch/mavros.launch.py
+[3.259s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/launch/px4_config.yaml
+[3.260s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/launch/px4_pluginlists.yaml
+[3.260s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/ament_index/resource_index/package_run_dependencies/px4_autonomy_modules
+[3.261s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/ament_index/resource_index/parent_prefix_path/px4_autonomy_modules
+[3.261s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/environment/ament_prefix_path.sh
+[3.262s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/environment/ament_prefix_path.dsv
+[3.262s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/environment/path.sh
+[3.262s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/environment/path.dsv
+[3.263s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/local_setup.bash
+[3.263s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/local_setup.sh
+[3.264s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/local_setup.zsh
+[3.265s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/local_setup.dsv
+[3.267s] -- Symlinking: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.dsv
+[3.343s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/ament_index/resource_index/packages/px4_autonomy_modules
+[3.344s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/cmake/px4_autonomy_modulesConfig.cmake
+[3.345s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/cmake/px4_autonomy_modulesConfig-version.cmake
+[3.346s] -- Up-to-date symlink: /home/jetson/flyrs_ws/install/px4_autonomy_modules/share/px4_autonomy_modules/package.xml
+[3.361s] Invoked command in '/home/jetson/flyrs_ws/build/px4_autonomy_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/flyrs_ws/build/px4_autonomy_modules

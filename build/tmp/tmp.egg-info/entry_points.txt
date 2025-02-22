@@ -1,0 +1,4 @@
+[console_scripts]
+realsense_test = tmp.realsense_sys_node:main
+vicon_test = tmp.republish_pose:main
+

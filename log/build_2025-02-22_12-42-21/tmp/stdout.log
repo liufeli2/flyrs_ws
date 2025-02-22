@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/tmp/tmp.egg-info/PKG-INFO
+writing dependency_links to ../../build/tmp/tmp.egg-info/dependency_links.txt
+writing entry points to ../../build/tmp/tmp.egg-info/entry_points.txt
+writing requirements to ../../build/tmp/tmp.egg-info/requires.txt
+writing top-level names to ../../build/tmp/tmp.egg-info/top_level.txt
+reading manifest file '../../build/tmp/tmp.egg-info/SOURCES.txt'
+writing manifest file '../../build/tmp/tmp.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tmp/republish_pose.py -> /home/jetson/flyrs_ws/build/tmp/build/lib/tmp
+copying tmp/realsense_sys_node.py -> /home/jetson/flyrs_ws/build/tmp/build/lib/tmp
+running install
+running install_lib
+copying /home/jetson/flyrs_ws/build/tmp/build/lib/tmp/republish_pose.py -> /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp
+copying /home/jetson/flyrs_ws/build/tmp/build/lib/tmp/realsense_sys_node.py -> /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp
+byte-compiling /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp/republish_pose.py to republish_pose.cpython-38.pyc
+byte-compiling /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp/realsense_sys_node.py to realsense_sys_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/tmp/tmp.egg-info to /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp-0.0.0-py3.8.egg-info
+running install_scripts
+Installing realsense_test script to /home/jetson/flyrs_ws/install/tmp/lib/tmp
+Installing vicon_test script to /home/jetson/flyrs_ws/install/tmp/lib/tmp
+writing list of installed files to '/home/jetson/flyrs_ws/build/tmp/install.log'

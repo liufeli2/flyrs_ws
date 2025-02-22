@@ -1,0 +1,38 @@
+[3.340s] Invoking command in '/home/jetson/flyrs_ws/src/tmp': PYTHONPATH=/home/jetson/flyrs_ws/build/tmp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tmp build --build-base /home/jetson/flyrs_ws/build/tmp/build install --record /home/jetson/flyrs_ws/build/tmp/install.log --install-scripts $base/lib/tmp --single-version-externally-managed install_data
+[4.434s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.434s]   warnings.warn(
+[4.566s] running egg_info
+[4.569s] creating ../../build/tmp/tmp.egg-info
+[4.569s] writing ../../build/tmp/tmp.egg-info/PKG-INFO
+[4.570s] writing dependency_links to ../../build/tmp/tmp.egg-info/dependency_links.txt
+[4.570s] writing entry points to ../../build/tmp/tmp.egg-info/entry_points.txt
+[4.571s] writing requirements to ../../build/tmp/tmp.egg-info/requires.txt
+[4.571s] writing top-level names to ../../build/tmp/tmp.egg-info/top_level.txt
+[4.581s] writing manifest file '../../build/tmp/tmp.egg-info/SOURCES.txt'
+[4.587s] reading manifest file '../../build/tmp/tmp.egg-info/SOURCES.txt'
+[4.589s] writing manifest file '../../build/tmp/tmp.egg-info/SOURCES.txt'
+[4.590s] running build
+[4.590s] running build_py
+[4.591s] creating /home/jetson/flyrs_ws/build/tmp/build
+[4.591s] creating /home/jetson/flyrs_ws/build/tmp/build/lib
+[4.592s] creating /home/jetson/flyrs_ws/build/tmp/build/lib/tmp
+[4.592s] copying tmp/republish_pose.py -> /home/jetson/flyrs_ws/build/tmp/build/lib/tmp
+[4.593s] copying tmp/__init__.py -> /home/jetson/flyrs_ws/build/tmp/build/lib/tmp
+[4.593s] running install
+[4.596s] running install_lib
+[4.600s] creating /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp
+[4.601s] copying /home/jetson/flyrs_ws/build/tmp/build/lib/tmp/republish_pose.py -> /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp
+[4.601s] copying /home/jetson/flyrs_ws/build/tmp/build/lib/tmp/__init__.py -> /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp
+[4.602s] byte-compiling /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp/republish_pose.py to republish_pose.cpython-38.pyc
+[4.604s] byte-compiling /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp/__init__.py to __init__.cpython-38.pyc
+[4.606s] running install_data
+[4.606s] creating /home/jetson/flyrs_ws/install/tmp/share/ament_index
+[4.607s] creating /home/jetson/flyrs_ws/install/tmp/share/ament_index/resource_index
+[4.607s] creating /home/jetson/flyrs_ws/install/tmp/share/ament_index/resource_index/packages
+[4.607s] copying resource/tmp -> /home/jetson/flyrs_ws/install/tmp/share/ament_index/resource_index/packages
+[4.608s] copying package.xml -> /home/jetson/flyrs_ws/install/tmp/share/tmp
+[4.608s] running install_egg_info
+[4.613s] Copying ../../build/tmp/tmp.egg-info to /home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages/tmp-0.0.0-py3.8.egg-info
+[4.616s] running install_scripts
+[4.690s] writing list of installed files to '/home/jetson/flyrs_ws/build/tmp/install.log'
+[4.790s] Invoked command in '/home/jetson/flyrs_ws/src/tmp' returned '0': PYTHONPATH=/home/jetson/flyrs_ws/build/tmp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tmp build --build-base /home/jetson/flyrs_ws/build/tmp/build install --record /home/jetson/flyrs_ws/build/tmp/install.log --install-scripts $base/lib/tmp --single-version-externally-managed install_data

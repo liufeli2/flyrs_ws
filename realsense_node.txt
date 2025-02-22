@@ -1,0 +1,19 @@
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: camera
+Node namespace: /camera
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.8e.f2.1c.25.39.24.01.00.00.00.00.00.1c.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT
+  Durability: RMW_QOS_POLICY_DURABILITY_VOLATILE
+  Lifespan: 2147483651294967295 nanoseconds
+  Deadline: 2147483651294967295 nanoseconds
+  Liveliness: RMW_QOS_POLICY_LIVELINESS_AUTOMATIC
+  Liveliness lease duration: 2147483651294967295 nanoseconds
+
+Subscription count: 0
+
