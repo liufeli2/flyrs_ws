@@ -10,24 +10,34 @@ import vicon_sys_node
 running_node = RealSense()
 # running_node = Vicon()
 
+def initial_position():
+    running_node.init_position = running_node.position
+    running_node.init_orientation = running_node.orientation
+
 # Callback handlers
 def handle_launch():
     print('Launch Requested. Your drone should take off.')
-    running_node.init_position = self.position
-    running_node.init_orientation = self.orientation
+    # Set the position to current pose but 1.5 m higher
+    running_node.set_position = running_node.position
+    running_node.set_orientation = running_node.orientation
     running_node.set_position.z = running_node.init_position.z + 1.5
 
 def handle_test():
     print('Test Requested. Your drone should perform the required tasks. Recording starts now.')
-    running_node.set_pose()
+    running_node.set_position = running_node.position
+    running_node.set_orientation = running_node.orientation
 
 def handle_land():
     print('Land Requested. Your drone should land.')
-    running_node.set_position.z += 1.5
+    # Set the position where it started
+    running_node.set_position = running_node.init_position
+    running_node.set_orientation = running_node.init_orientation
 
 def handle_abort():
     print('Abort Requested. Your drone should land immediately due to safety considerations')
-    running_node.set_position.z = 0
+    # Set the position where it started
+    running_node.set_position = running_node.init_position
+    running_node.set_orientation = running_node.init_orientation
 
 # Service callbacks
 def callback_launch(request, response):
@@ -59,6 +69,7 @@ def main(args=None):
     rclpy.init(args=args)
     comm_node = CommNode()
     rclpy.spin(running_node)
+    initial_position()
     rclpy.spin(comm_node)
     running_node.destroy_node()
     rclpy.shutdown()
