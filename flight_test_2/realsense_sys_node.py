@@ -1,7 +1,9 @@
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import PoseStamped
+from nav_msgs.msg import Odometry
+from rclpy.qos import QoSProfile, QoSReliabilityPolicy
 
+qos_profile = QoSProfile(reliability=QoSReliabilityPolicy.BEST_EFFORT, depth=1)
 
 class RealSense(Node):
     def __init__(self):
@@ -20,13 +22,13 @@ class RealSense(Node):
         # Subscriber to RealSense pose data
         self.realsense_subscriber = self.create_subscription(Odometry, '/camera/pose/sample', self.realsense_callback, qos_profile)
         self.get_logger().info('Subscribing to RealSense!')
-
+        
         # Publisher for VisionPose topic
         self.vision_pose_publisher = self.create_publisher(PoseStamped, '/mavros/vision_pose/pose', 1)
         self.get_logger().info('Publishing to VisionPose')
 
         # Publisher for SetPoint topic
-        self.setpoint_publisher = self.create_publisher(PoseStamped, '/mavros/setpoint_position/local', 1)
+        self.setpoint_publisher = self.create_publisher(PoseStamped, '/mavros/setpoint_position/local', qos_profile)
         self.get_logger().info('Publishing to SetPoint')
 
         # Statement to end the inits
@@ -74,7 +76,8 @@ class RealSense(Node):
 
 
     def set_pose(self):
-        self.set_position = self.set_position
+        # Put the current position into maintained position
+        self.set_position = self.position
         self.set_orientation = self.orientation
 
 
