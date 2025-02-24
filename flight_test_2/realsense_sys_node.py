@@ -76,7 +76,8 @@ class RealSense(Node):
     def set_non_z_pose(self):
         # Maintain the non y related parts of the flight
         self.set_position.x = self.position.x
-        self.set_position.y = self.position.y
+        self.set_position.y = self.p
+        osition.y
         self.set_orientation = self.orientation
 
 
