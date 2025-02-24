@@ -1,0 +1,4 @@
+source;share/fl2/local_setup.bash
+source;share/fl2/local_setup.dsv
+source;share/fl2/local_setup.sh
+source;share/fl2/local_setup.zsh

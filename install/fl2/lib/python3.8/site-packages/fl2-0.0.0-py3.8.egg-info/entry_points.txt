@@ -1,0 +1,3 @@
+[console_scripts]
+realsense_test = fl2.realsense_sys_node:main
+

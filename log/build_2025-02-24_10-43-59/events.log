@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (fl2) JobQueued: {'identifier': 'fl2', 'dependencies': OrderedDict()}
+[0.000634] (fl2) JobStarted: {'identifier': 'fl2'}
+[0.097239] (-) TimerEvent: {}
+[0.198124] (-) TimerEvent: {}
+[0.298826] (-) TimerEvent: {}
+[0.399473] (-) TimerEvent: {}
+[0.500144] (-) TimerEvent: {}
+[0.600795] (-) TimerEvent: {}
+[0.701487] (-) TimerEvent: {}
+[0.802129] (-) TimerEvent: {}
+[0.902778] (-) TimerEvent: {}
+[1.003690] (-) TimerEvent: {}
+[1.104382] (-) TimerEvent: {}
+[1.205097] (-) TimerEvent: {}
+[1.305688] (-) TimerEvent: {}
+[1.406628] (-) TimerEvent: {}
+[1.507579] (-) TimerEvent: {}
+[1.608219] (-) TimerEvent: {}
+[1.708831] (-) TimerEvent: {}
+[1.809496] (-) TimerEvent: {}
+[1.910101] (-) TimerEvent: {}
+[2.010652] (-) TimerEvent: {}
+[2.111255] (-) TimerEvent: {}
+[2.211861] (-) TimerEvent: {}
+[2.312483] (-) TimerEvent: {}
+[2.413411] (-) TimerEvent: {}
+[2.514033] (-) TimerEvent: {}
+[2.614593] (-) TimerEvent: {}
+[2.715244] (-) TimerEvent: {}
+[2.815813] (-) TimerEvent: {}
+[2.916357] (-) TimerEvent: {}
+[3.016936] (-) TimerEvent: {}
+[3.117627] (-) TimerEvent: {}
+[3.218360] (-) TimerEvent: {}
+[3.261935] (fl2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fl2', 'build', '--build-base', '/home/jetson/flyrs_ws/build/fl2/build', 'install', '--record', '/home/jetson/flyrs_ws/build/fl2/install.log', '--install-scripts', '$base/lib/fl2', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/flyrs_ws/src/fl2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'jetson', 'SSH_CLIENT': '192.168.197.23 58842 22', 'LC_TIME': 'en_CA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-9dfa3fca-fcf3-4090-9e1e-bb9f482cc0a0.sock', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_CA.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/flyrs_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1423221006032', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda/bin:/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_CA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_CA.UTF-8', 'LC_TELEPHONE': 'en_CA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-5e8bf47287.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jetson/flyrs_ws/install/fl2:/home/jetson/flyrs_ws/install/tmp:/home/jetson/flyrs_ws/install/px4_autonomy_modules:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_CA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_CA.UTF-8', 'LC_IDENTIFICATION': 'en_CA.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/flyrs_ws/build/fl2', 'SSH_CONNECTION': '192.168.197.23 58842 192.168.197.226 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/flyrs_ws/build/fl2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages:/home/jetson/flyrs_ws/install/tmp/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_CA.UTF-8', 'LC_PAPER': 'en_CA.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'CMAKE_PREFIX_PATH': '/home/jetson/flyrs_ws/install/fl2:/home/jetson/flyrs_ws/install/px4_autonomy_modules', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[3.318656] (-) TimerEvent: {}
+[3.419497] (-) TimerEvent: {}
+[3.520115] (-) TimerEvent: {}
+[3.620745] (-) TimerEvent: {}
+[3.721452] (-) TimerEvent: {}
+[3.822075] (-) TimerEvent: {}
+[3.922672] (-) TimerEvent: {}
+[4.023280] (-) TimerEvent: {}
+[4.123846] (-) TimerEvent: {}
+[4.224508] (-) TimerEvent: {}
+[4.267686] (fl2) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.268412] (fl2) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.324661] (-) TimerEvent: {}
+[4.393641] (fl2) StdoutLine: {'line': b'running egg_info\n'}
+[4.396218] (fl2) StdoutLine: {'line': b'creating ../../build/fl2/fl2.egg-info\n'}
+[4.396803] (fl2) StdoutLine: {'line': b'writing ../../build/fl2/fl2.egg-info/PKG-INFO\n'}
+[4.397500] (fl2) StdoutLine: {'line': b'writing dependency_links to ../../build/fl2/fl2.egg-info/dependency_links.txt\n'}
+[4.398014] (fl2) StdoutLine: {'line': b'writing entry points to ../../build/fl2/fl2.egg-info/entry_points.txt\n'}
+[4.398692] (fl2) StdoutLine: {'line': b'writing requirements to ../../build/fl2/fl2.egg-info/requires.txt\n'}
+[4.399064] (fl2) StdoutLine: {'line': b'writing top-level names to ../../build/fl2/fl2.egg-info/top_level.txt\n'}
+[4.409791] (fl2) StdoutLine: {'line': b"writing manifest file '../../build/fl2/fl2.egg-info/SOURCES.txt'\n"}
+[4.415923] (fl2) StdoutLine: {'line': b"reading manifest file '../../build/fl2/fl2.egg-info/SOURCES.txt'\n"}
+[4.418891] (fl2) StdoutLine: {'line': b"writing manifest file '../../build/fl2/fl2.egg-info/SOURCES.txt'\n"}
+[4.419448] (fl2) StdoutLine: {'line': b'running build\n'}
+[4.419848] (fl2) StdoutLine: {'line': b'running build_py\n'}
+[4.420379] (fl2) StdoutLine: {'line': b'creating /home/jetson/flyrs_ws/build/fl2/build\n'}
+[4.420778] (fl2) StdoutLine: {'line': b'creating /home/jetson/flyrs_ws/build/fl2/build/lib\n'}
+[4.421221] (fl2) StdoutLine: {'line': b'creating /home/jetson/flyrs_ws/build/fl2/build/lib/fl2\n'}
+[4.421636] (fl2) StdoutLine: {'line': b'copying fl2/visionpose_sys_node.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2\n'}
+[4.421991] (fl2) StdoutLine: {'line': b'copying fl2/__init__.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2\n'}
+[4.422393] (fl2) StdoutLine: {'line': b'copying fl2/vicon_sys_node.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2\n'}
+[4.422764] (fl2) StdoutLine: {'line': b'copying fl2/realsense_sys_node.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2\n'}
+[4.423814] (fl2) StdoutLine: {'line': b'running install\n'}
+[4.424750] (-) TimerEvent: {}
+[4.426945] (fl2) StdoutLine: {'line': b'running install_lib\n'}
+[4.430714] (fl2) StdoutLine: {'line': b'creating /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2\n'}
+[4.431564] (fl2) StdoutLine: {'line': b'copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/visionpose_sys_node.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2\n'}
+[4.432113] (fl2) StdoutLine: {'line': b'copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/__init__.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2\n'}
+[4.432697] (fl2) StdoutLine: {'line': b'copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/vicon_sys_node.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2\n'}
+[4.433144] (fl2) StdoutLine: {'line': b'copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/realsense_sys_node.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2\n'}
+[4.434551] (fl2) StdoutLine: {'line': b'byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/visionpose_sys_node.py to visionpose_sys_node.cpython-38.pyc\n'}
+[4.436640] (fl2) StdoutLine: {'line': b'byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/__init__.py to __init__.cpython-38.pyc\n'}
+[4.437345] (fl2) StdoutLine: {'line': b'byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/vicon_sys_node.py to vicon_sys_node.cpython-38.pyc\n'}
+[4.438804] (fl2) StdoutLine: {'line': b'byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/realsense_sys_node.py to realsense_sys_node.cpython-38.pyc\n'}
+[4.440185] (fl2) StdoutLine: {'line': b'running install_data\n'}
+[4.440690] (fl2) StdoutLine: {'line': b'copying resource/fl2 -> /home/jetson/flyrs_ws/install/fl2/share/ament_index/resource_index/packages\n'}
+[4.441283] (fl2) StdoutLine: {'line': b'copying package.xml -> /home/jetson/flyrs_ws/install/fl2/share/fl2\n'}
+[4.441838] (fl2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.447742] (fl2) StdoutLine: {'line': b'Copying ../../build/fl2/fl2.egg-info to /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2-0.0.0-py3.8.egg-info\n'}
+[4.450884] (fl2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.520578] (fl2) StdoutLine: {'line': b'Installing realsense_test script to /home/jetson/flyrs_ws/install/fl2/lib/fl2\n'}
+[4.521951] (fl2) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/flyrs_ws/build/fl2/install.log'\n"}
+[4.524918] (-) TimerEvent: {}
+[4.616235] (fl2) CommandEnded: {'returncode': 0}
+[4.625099] (-) TimerEvent: {}
+[4.678184] (fl2) JobEnded: {'identifier': 'fl2', 'rc': 0}
+[4.680423] (-) EventReactorShutdown: {}

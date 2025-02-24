@@ -1,0 +1,42 @@
+[3.263s] Invoking command in '/home/jetson/flyrs_ws/src/fl2': PYTHONPATH=/home/jetson/flyrs_ws/build/fl2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fl2 build --build-base /home/jetson/flyrs_ws/build/fl2/build install --record /home/jetson/flyrs_ws/build/fl2/install.log --install-scripts $base/lib/fl2 --single-version-externally-managed install_data
+[4.268s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.268s]   warnings.warn(
+[4.393s] running egg_info
+[4.396s] creating ../../build/fl2/fl2.egg-info
+[4.396s] writing ../../build/fl2/fl2.egg-info/PKG-INFO
+[4.397s] writing dependency_links to ../../build/fl2/fl2.egg-info/dependency_links.txt
+[4.398s] writing entry points to ../../build/fl2/fl2.egg-info/entry_points.txt
+[4.398s] writing requirements to ../../build/fl2/fl2.egg-info/requires.txt
+[4.399s] writing top-level names to ../../build/fl2/fl2.egg-info/top_level.txt
+[4.409s] writing manifest file '../../build/fl2/fl2.egg-info/SOURCES.txt'
+[4.416s] reading manifest file '../../build/fl2/fl2.egg-info/SOURCES.txt'
+[4.419s] writing manifest file '../../build/fl2/fl2.egg-info/SOURCES.txt'
+[4.419s] running build
+[4.420s] running build_py
+[4.420s] creating /home/jetson/flyrs_ws/build/fl2/build
+[4.420s] creating /home/jetson/flyrs_ws/build/fl2/build/lib
+[4.421s] creating /home/jetson/flyrs_ws/build/fl2/build/lib/fl2
+[4.421s] copying fl2/visionpose_sys_node.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2
+[4.422s] copying fl2/__init__.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2
+[4.422s] copying fl2/vicon_sys_node.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2
+[4.422s] copying fl2/realsense_sys_node.py -> /home/jetson/flyrs_ws/build/fl2/build/lib/fl2
+[4.423s] running install
+[4.427s] running install_lib
+[4.431s] creating /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2
+[4.431s] copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/visionpose_sys_node.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2
+[4.432s] copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/__init__.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2
+[4.432s] copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/vicon_sys_node.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2
+[4.433s] copying /home/jetson/flyrs_ws/build/fl2/build/lib/fl2/realsense_sys_node.py -> /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2
+[4.434s] byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/visionpose_sys_node.py to visionpose_sys_node.cpython-38.pyc
+[4.436s] byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/__init__.py to __init__.cpython-38.pyc
+[4.437s] byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/vicon_sys_node.py to vicon_sys_node.cpython-38.pyc
+[4.438s] byte-compiling /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2/realsense_sys_node.py to realsense_sys_node.cpython-38.pyc
+[4.440s] running install_data
+[4.440s] copying resource/fl2 -> /home/jetson/flyrs_ws/install/fl2/share/ament_index/resource_index/packages
+[4.441s] copying package.xml -> /home/jetson/flyrs_ws/install/fl2/share/fl2
+[4.441s] running install_egg_info
+[4.447s] Copying ../../build/fl2/fl2.egg-info to /home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages/fl2-0.0.0-py3.8.egg-info
+[4.451s] running install_scripts
+[4.520s] Installing realsense_test script to /home/jetson/flyrs_ws/install/fl2/lib/fl2
+[4.522s] writing list of installed files to '/home/jetson/flyrs_ws/build/fl2/install.log'
+[4.617s] Invoked command in '/home/jetson/flyrs_ws/src/fl2' returned '0': PYTHONPATH=/home/jetson/flyrs_ws/build/fl2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/flyrs_ws/install/fl2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fl2 build --build-base /home/jetson/flyrs_ws/build/fl2/build install --record /home/jetson/flyrs_ws/build/fl2/install.log --install-scripts $base/lib/fl2 --single-version-externally-managed install_data
