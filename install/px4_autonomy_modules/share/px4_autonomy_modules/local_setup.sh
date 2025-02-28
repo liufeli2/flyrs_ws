@@ -1,1 +1,0 @@
-/home/jetson/flyrs_ws/build/px4_autonomy_modules/ament_cmake_environment_hooks/local_setup.sh
